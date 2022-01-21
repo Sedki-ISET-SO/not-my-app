@@ -1,0 +1,101 @@
+#login{
+    background-image: url('../Assets/5.gif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+   
+} 
+section{
+ background-color: rgba(0,0,0,0.2); 
+       height: 90%;
+       padding-left: 2rem; 
+       padding-right: 2rem;
+       padding-top:2rem ;
+       width:35% ;
+       border-radius: 5px;
+    }
+
+.cube{
+color:orange ;
+        
+}
+
+h1{
+font-family: cursive;
+text-align: center;
+color: beige;
+font-size: 70px;
+margin-top: 5%;
+        
+}
+   h2{
+font-family: cursive;
+text-align: center;
+color: beige;
+font-size: 70px;
+margin-top: 5%;
+        
+}
+.button{
+        width: 100%;
+}
+
+
+.play-button{
+    font-family: cursive;
+background-color: rgb(201, 181, 69);
+color: beige;
+cursor:pointer ;
+padding: 1rem;
+width: 50%;
+border-radius: 30px;
+margin-top: 10%;
+}
+
+
+.play-button:hover{
+background-color:rgb(170, 140, 43);
+box-shadow: 0 2px 2px 0 rgb(0, 0, 0,0.14),0 3px 1px -2px rgb(0, 0, 0,0.12), 0 1px 5px 0 rgb(0, 0, 0,0.2);
+}
+
+.auth-container{
+        font-family: cursive;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+}
+.lable{
+    height: 50%;
+    color:blanchedalmond;
+      text-align: left;
+      margin-top: 50px;
+      font-size: 200%;
+      font-family: cursive;
+      justify-content:'space-between';
+}
+.h6{
+    text-align: center;
+    color: rgb(199, 23, 23);
+ 
+}
+
+
+.input{
+    background-color:beige;
+     width: 50%;
+     height:40px;
+   justify-content:'space-between';
+
+}
+
+@media(max-width:768px){
+#login section {
+    padding: 0 1rem;
+    width: 100%;
+    height: 100%;
+}  
+}
+
